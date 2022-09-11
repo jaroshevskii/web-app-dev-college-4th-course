@@ -1,4 +1,4 @@
-# Web Application Development
+<!-- # Web Application Development -->
 
 ## List of practical works
 
