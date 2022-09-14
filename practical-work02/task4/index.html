@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 4</title>
+</head>
+
+<body style="font-family: sans-serif;">
+  <script>
+    const daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+
+    for (const i in daysOfWeek) {
+      document.write(`${daysOfWeek[i]}<br>`);
+    }
+    document.write("<br>");
+
+    daysOfWeek.reverse();
+    for (const i in daysOfWeek) {
+      document.write(`${daysOfWeek[i]}<br>`);
+    }
+    daysOfWeek.reverse();
+    document.write("<br>");
+
+    document.write(daysOfWeek);
+    document.write("<br>");
+    
+    const tempLastDay = daysOfWeek.pop();
+    daysOfWeek.unshift(tempLastDay);
+    document.write(daysOfWeek);
+  </script>
+</body>
+
+</html>

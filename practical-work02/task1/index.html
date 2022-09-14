@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 1. alert(), confirm() and prompt() methods</title>
+</head>
+
+<body style="font-family: sans-serif;">
+  <script>
+    function isPrimeNumber(number) {
+      if (number < 2) {
+        return false;
+      }
+
+      for (let i = 2; i < number; ++i) {
+        if (number % i == 0) {
+          return false;
+        }
+      }
+      return true;
+    }
+    
+    let primeNumberSum = 0;
+
+    while (true) {
+      const integer = Number(prompt("Enter an integer"));
+
+      if (integer == 0) {
+        break;
+      }
+
+      if (isPrimeNumber(integer)) {
+        alert(`The number '${integer}' is simple`)
+        primeNumberSum += integer;
+      }
+    }
+
+    document.write(`Prime number sum: ${primeNumberSum}`);
+  </script>
+</body>
+
+</html>
