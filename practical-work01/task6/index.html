@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Завдання 6. Оператори циклу</title>
+  <style>
+    table,
+    td {
+      border-style: solid;
+      border-width: thin;
+      border-color: gray;
+    }
+
+    td {
+      min-width: 22px;
+      text-align: center;
+    }
+
+    tr:first-child,
+    td:first-child {
+      font-weight: bold;
+    }
+
+    td {
+      padding: 4px;
+    }
+  </style>
+</head>
+
+<body style="width: fit-content; margin-inline: auto; font-family: sans-serif;">
+  <script>
+    document.write("<table>");
+
+    for (let i = 1; i < 10; ++i) {
+      document.write("<tr>");
+
+      for (let j = 1; j < 10; ++j) {
+        document.write(`<td>${i * j}</td>`);
+      }
+
+      document.write("</tr>");
+    }
+
+    document.write("</table>");
+  </script>
+</body>
+
+</html>
