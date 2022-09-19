@@ -1,4 +1,4 @@
-# Web app dev
+# Web application development
 
 Repository with web application development tasks (college 4th course).
 
