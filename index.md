@@ -1,5 +1,9 @@
 <!-- # Web app dev -->
 
+Repository with web application development tasks (college 4th course).
+
+See also [Web app dev (college 3rd course)](https://jaroshevskii.github.io/web-app-dev-college-3rd-course/).
+
 ## List of practical works
 
 ### Practical work 2. Arrays
