@@ -10,6 +10,9 @@ See also [Web app dev (college 3rd course)](https://jaroshevskii.github.io/web-a
 
 - [Task 1. Functions](./practical-work01/task1/)
 - [Task 2](./practical-work03/task2/)
+- [Task 3](./practical-work03/task3/)
+- [Task 4](./practical-work03/task4/)
+- [Task 5](./practical-work03/task5/)
 
 ### Practical work 2. Arrays
 
