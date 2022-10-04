@@ -6,6 +6,11 @@ See also [Web app dev (college 3rd course)](https://jaroshevskii.github.io/web-a
 
 ## List of practical works
 
+### Practical work 3. Functions. Functions when working with arrays
+
+- [Task 1. Functions](./practical-work01/task1/)
+- [Task 2](./practical-work03/task2/)
+
 ### Practical work 2. Arrays
 
 - [Task 1. `alert()`, `confirm()` and `prompt()` methods](./practical-work02/task1/)

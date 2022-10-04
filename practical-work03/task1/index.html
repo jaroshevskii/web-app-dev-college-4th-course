@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 1. Functions</title>
+  <style>
+    table,
+    td {
+      border-style: solid;
+      border-width: thin;
+      border-color: gray;
+    }
+
+    td {
+      min-width: 22px;
+      text-align: center;
+    }
+
+    td {
+      padding: 4px;
+    }
+  </style>
+</head>
+
+<body style="width: fit-content; margin-inline: auto; font-family: sans-serif;">
+  <script>
+    function printArray(array) {
+      document.write("<table>");
+      for (const i in array) {
+        document.write("<tr>");
+        for (const j in array[i]) {
+          document.write(`<td>${array[i][j]}</td>`);
+        }
+        document.write("</tr>");
+      }
+      document.write("</table><br>");
+    }
+
+    function sumOfArray(array) {
+      let sum = 0;
+      for (const i in array) {
+        sum += array[i];
+      }
+      return sum;
+    }
+
+    printArray([
+      [1, 2, 3],
+      [4, 5, 6],
+      [7, 8, 9]
+    ]);
+
+    const sum = sumOfArray([1, 2, 3, 4, 5]);
+    alert(`Sum of array: ${sum}`);
+  </script>
+</body>
+
+</html>
