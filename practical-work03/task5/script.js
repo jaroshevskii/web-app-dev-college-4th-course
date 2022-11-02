@@ -1,5 +1,5 @@
 function arraySort(array) {
-  return [...array].sort();
+  return array.slice().sort();
 }
 
 const array = ["HTML", "JavaScript", "CSS"];
