@@ -6,9 +6,17 @@ See also [Web app dev (college 3rd course)](https://jaroshevskii.github.io/web-a
 
 ## List of practical works
 
+### Practical wokr 4. Objects
+
+- [Task 1](./practical-work04/task1/)
+- [Task 2](./practical-work04/task2/)
+- [Task 3](./practical-work04/task3/)
+- [Task 4](./practical-work04/task4/)
+- [Task 5](./practical-work04/task5/)
+
 ### Practical work 3. Functions. Functions when working with arrays
 
-- [Task 1. Functions](./practical-work01/task1/)
+- [Task 1. Functions](./practical-work03/task1/)
 - [Task 2](./practical-work03/task2/)
 - [Task 3](./practical-work03/task3/)
 - [Task 4](./practical-work03/task4/)
