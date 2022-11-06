@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: fit-content;
+  font-family: sans-serif;
+  margin-inline: auto;
+  text-align: center;
+}
+
+button {
+  margin: 6px;
+}
