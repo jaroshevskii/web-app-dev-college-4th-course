@@ -36,7 +36,7 @@ function calculateResult() {
 
   document
     .getElementById("week-value")
-    .innerHTML = `${getWeekDescription()}`;
+    .innerHTML = `${getWeekDescription()}output`;
 
   function getHoursDescription() {
     const hours = date.getHours();
