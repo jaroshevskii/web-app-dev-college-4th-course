@@ -6,6 +6,15 @@ See also [Web app dev (college 3rd course)](https://jaroshevskii.github.io/web-a
 
 ## List of practical works
 
+### Practical wokr 6. Work with strings
+
+- [Task 1](./practical-work06/task1/)
+- [Task 2](./practical-work06/task2/)
+- [Task 3](./practical-work06/task3/)
+- [Task 4](./practical-work06/task4/)
+- [Task 5](./practical-work06/task5/)
+- [Task 5](./practical-work06/task6/)
+
 ### Practical wokr 5. Date and time. Basics of event processing
 
 - [Task 1](./practical-work05/task1/)
