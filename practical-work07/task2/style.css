@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  max-width: 768px;
+  margin-inline: auto;
+  padding-inline: 8px;
+  margin-bottom: 256px;
+}
+
+[task1]>[buttons] {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+[task1-text] {
+  margin-block: 8px;
+  margin-inline: auto;
+  width: 384px;
+  height: 96px;
+  padding: 4px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.task2,
+.task3 {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 2fr 1fr;
+}
+
+.task4>button,
+.task4>img,
+.task5>input,
+.task6>input,
+.task9>img {
+  display: block;
+  margin-inline: auto;
+}
+
+.task7,
+.task8 {
+  margin-block: 8px;
+  margin-inline: auto;
+  width: 384px;
+  padding: 4px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.task7>button,
+.task8>button {
+  margin-top: 16px;
+  width: 100%;
+}

@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  max-width: 425px;
+  margin-inline: auto;
+  padding-inline: 8px;
+}
+
+input {
+  margin-right: 4px;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
