@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 425px;
+  margin-inline: auto;
+  font-family: sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+  margin-block: 8px;
+  padding: 4px;
+  text-align: center;
+  border-style: solid;
+  border-width: thin;
+}
+
+.menu>a {
+  display: block;
+}
