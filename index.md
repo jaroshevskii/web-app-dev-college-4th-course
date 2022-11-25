@@ -6,6 +6,12 @@ See also [Web app dev (college 3rd course)](https://jaroshevskii.github.io/web-a
 
 ## List of practical works
 
+### Practical wokr 7. Functions. Row operations. DOM (Document Object Model)
+
+- [Task 1](./practical-work07/task1/)
+- [Task 2](./practical-work07/task2/)
+- [Task 3](./practical-work07/task3/)
+
 ### Practical wokr 6. Work with strings
 
 - [Task 1](./practical-work06/task1/)
