@@ -32,7 +32,7 @@ function calculateResult() {
 
   document
     .getElementById("date-value")
-    .innerHTML = `${date.getDay()} ${getMonthDescription()} ${date.getFullYear()} року`;
+    .innerHTML = `${date.getDate()} ${getMonthDescription()} ${date.getFullYear()} року`;
 
   document
     .getElementById("week-value")
